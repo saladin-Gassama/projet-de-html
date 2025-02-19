@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statup Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- En tete -->
+    <header class="header">
+      <div class="logo">StatUp</div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#temoignages">Témoignages</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Section Hero -->
+    <section id="hero">
+      <div class="hero-text">
+        <h1>Bienvenue dans le futur de la technologie</h1>
+        <p>Rejoignez-nous pour revolutionnner le monde</p>
+        <button>En savoir plus</button>
+      </div>
+      <div class="hero-image">
+        <img
+          src="44885_large.jpg"
+          alt="Hero image"
+        />
+      </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services">
+      <div class="service">
+        <h3>Service 1</h3>
+        <p>Description rapide du service</p>
+      </div>
+
+      <div class="service">
+        <h3>Service 2</h3>
+        <p>Description rapide du service</p>
+      </div>
+
+      <div class="service">
+        <h3>Service 3</h3>
+        <p>Description rapide du service</p>
+      </div>
+
+      <div class="service">
+        <h3>Service 4</h3>
+        <p>Description rapide du service</p>
+      </div>
+
+      <div class="service">
+        <h3>Service 5</h3>
+        <p>Description rapide du service</p>
+      </div>
+
+      <div class="service">
+        <h3>Service 6</h3>
+        <p>Description rapide du service</p>
+      </div>
+    </section>
+
+    <!-- Temoignage -->
+    <section id="temoignages" class="temoignages">
+      <div class="temoignage">
+        <p>"Super services, je recommande !</p>
+        <h4>-Client 1</h4>
+      </div>
+      <div class="temoignage">
+        <p>"Une equipe au top et des resultat impressionant."</p>
+        <h4>-Client 2</h4>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div>
+        <h4>A propos</h4>
+        <p>Nous somme une startup innnovante</p>
+      </div>
+      <div>
+        <h4>Liens</h4>
+        <ul>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#temoignages">Temoignages</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletters</h4>
+        <form>
+          <input type="email" name="" placeholder="Entrez votre email" />
+          <button>S'inscrire</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
