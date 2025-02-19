@@ -6,7 +6,7 @@
     <title>Statup Landing Page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body>/''
     <!-- En tete -->
     <header class="header">
       <div class="logo">StatUp</div>
